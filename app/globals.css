@@ -2,3 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+.hover-effect:hover {
+    filter: brightness(1) invert(0);
+  }
+  
+  .hover-color:hover {
+    color: #8A9A58;
+  }
