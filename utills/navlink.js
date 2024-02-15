@@ -6,3 +6,19 @@ export const navRoutes = [
     { name: "Blog", href: "/blog" },
     { name: "Contact Us", href: "/contact" },
 ]
+
+export const NavImage = [
+    {
+        img:'/1.JPG',
+        alt:'Havan'
+    },
+    {
+        img:'/2.JPG',
+        alt:'Havan'
+    },
+    {
+        img:'/3.JPG',
+        alt:'Havan'
+    }
+    
+]

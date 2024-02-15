@@ -6,7 +6,7 @@ const Footer = () => {
     <footer className="bg-[#000000]">
       <div className="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
         <div className="md:flex md:justify-between">
-          <div className="mb-6 md:mb-0">
+          <div className=" flex max-md:flex-col mb-6 md:mb-0">
             <Link href="https://havan.ca/" className="flex items-center">
               <Image
                 src="/havan-logo.png"
@@ -17,6 +17,14 @@ const Footer = () => {
                 style={{ filter: "brightness(0) invert(1)" }}
               />
             </Link>
+            <div className=" py-10 mx-10 gap-6">
+              <h6 className="flex justify-center text-sm font-bold hover:text-[#BCB88A] text-[#8A9A58] sm:text-center">
+                Office : <a className="hover:text-[#BCB88A] font-normal" href="tel:(778) 400-6715">(778) 400-6715</a>
+              </h6>
+              <h6 className="flex pt-6 justify-center text-sm font-bold hover:text-[#BCB88A] text-[#8A9A58] sm:text-center">
+              Email :<a className="hover:text-[#BCB88A] font-normal" href="mailto:info@scottasbestos.com">info@scottasbestos.com</a>
+              </h6>
+            </div>
           </div>
 
           <div className="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
@@ -85,7 +93,7 @@ const Footer = () => {
           </div>
         </div>
         <hr className="my-6 border-gray-200 sm:mx-auto  lg:my-8" />
-        <div className="  sm:flex sm:items-center sm:justify-between">
+        <div className="sm:flex sm:items-center sm:justify-between">
           <h6 className="flex justify-center text-sm font-bold hover:text-[#BCB88A] text-[#8A9A58] sm:text-center">
             <span className="text-center md:text-left md:pl-4">
               Copyright© 2023-2024 Scott's
