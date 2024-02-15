@@ -4,7 +4,6 @@ import { useState } from "react";
 import { NavImage } from "@/utills/navlink";
 import { BsChevronCompactLeft, BsChevronCompactRight } from "react-icons/bs";
 import { RxDotFilled } from "react-icons/rx";
-import Link from "next/link";
 import { Button } from "../ui/button";
 export function CarouselDemo() {
   const [currentIndex, setCurrentIndex] = useState(0);
